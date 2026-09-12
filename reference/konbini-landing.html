@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Konbini Bakehouse — landing reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;padding:0;background:#292a2d}
+body{font-family:Poppins,"Century Gothic",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#fd5a13;text-decoration:none}
+a:hover{color:#f0e7dc}
+@keyframes kb-wink{
+  0%,38%{x:410.79px;y:29.15px;width:117.91px;height:33.58px;rx:0px}
+  47%,60%{x:423.8px;y:0px;width:91.88px;height:91.88px;rx:45.94px}
+  70%,100%{x:410.79px;y:29.15px;width:117.91px;height:33.58px;rx:0px}
+}
+@keyframes kb-rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes kb-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+a.kb-contact:hover{border-color:#fd5a13!important;box-shadow:0 12px 30px rgba(253,90,19,.24);transform:translateY(-1px)}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<main style="min-height:100svh;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:clamp(20px,4.6vh,64px);padding:clamp(24px,5vh,56px) clamp(20px,6vw,64px) clamp(54px,8vh,84px);background:#292a2d;color:#f0e7dc;position:relative;overflow:hidden">
+
+  <svg viewBox="0 0 100 100" aria-hidden="true" style="position:absolute;top:-6vmin;left:-7vmin;width:34vmin;height:34vmin;animation:kb-float 9s ease-in-out infinite">
+    <circle cx="50" cy="50" r="50" fill="#fd5a13"></circle>
+    <circle cx="38" cy="34" r="7" fill="#292a2d"></circle>
+    <circle cx="66" cy="44" r="7" fill="#292a2d"></circle>
+    <circle cx="45" cy="66" r="7" fill="#292a2d"></circle>
+    <circle cx="72" cy="72" r="5" fill="#292a2d"></circle>
+  </svg>
+
+  <svg viewBox="0 0 100 100" aria-hidden="true" style="position:absolute;top:4vmin;right:-3vmin;width:26vmin;height:26vmin;animation:kb-float 11s ease-in-out .8s infinite">
+    <g fill="#9ecfa9">
+      <path d="M8,54 A17,17 0 0 1 27,29 A26,26 0 0 1 73,29 A17,17 0 0 1 92,54 Z"></path>
+      <path d="M16,58 L84,58 L74,96 L26,96 Z"></path>
+    </g>
+    <g fill="#292a2d">
+      <rect x="33" y="58" width="4" height="38"></rect>
+      <rect x="48" y="58" width="4" height="38"></rect>
+      <rect x="63" y="58" width="4" height="38"></rect>
+    </g>
+  </svg>
+
+  <svg viewBox="0 0 100 100" aria-hidden="true" style="position:absolute;bottom:-5vmin;right:-6vmin;width:32vmin;height:32vmin;animation:kb-float 10s ease-in-out .4s infinite">
+    <path d="M47,50 A3,3 0 0 1 53,50 A9,9 0 0 1 35,50 A15,15 0 0 1 65,50 A21,21 0 0 1 23,50 A27,27 0 0 1 77,50 A33,33 0 0 1 11,50 A39,39 0 0 1 89,50" fill="none" stroke="#f266a3" stroke-width="6.5" stroke-linecap="round"></path>
+  </svg>
+
+  <svg viewBox="0 0 100 100" aria-hidden="true" style="position:absolute;bottom:6vmin;left:-4vmin;width:20vmin;height:20vmin;transform:rotate(-18deg);animation:kb-float 12s ease-in-out 1.2s infinite">
+    <rect x="14" y="10" width="62" height="80" rx="7" fill="#a595ef"></rect>
+    <g fill="#292a2d">
+      <rect x="32" y="26" width="18" height="7" rx="3.5"></rect>
+      <rect x="40" y="46" width="18" height="7" rx="3.5"></rect>
+      <rect x="32" y="66" width="18" height="7" rx="3.5"></rect>
+    </g>
+  </svg>
+
+  <div aria-hidden="true" style="position:absolute;top:50%;left:-9vmin;width:20vmin;height:20vmin;border-radius:50%;background:#9ecfa9"></div>
+  <div aria-hidden="true" style="position:absolute;top:56%;right:5vmin;width:6vmin;height:1.6vmin;border-radius:1px;background:#fd5a13"></div>
+
+  <div style="display:flex;flex-direction:column;align-items:center;gap:clamp(24px,4.4vh,46px);width:100%;max-width:640px;position:relative;z-index:2;animation:kb-rise .7s ease both">
+    <svg viewBox="0 0 702.9 510.55" role="img" aria-label="Konbini" style="width:100%;max-width:min(560px,74vw);max-height:min(406px,34vh);height:auto;display:block;fill:#fd5a13;overflow:visible">
+      <g>
+        <path d="M40.86,182.97l-38.99,4.78-1.87-15.3,79.33-9.72,1.87,15.3-31.73,3.89,35.41,26.15,2.47,20.17-40.54-30.46-38.27,44.37-2.4-19.6,34.72-39.57Z"></path>
+        <path d="M136.16,321.61c14.82,19.71,10.35,44.35-7.81,58-18.15,13.65-43.07,11.1-57.88-8.61-14.82-19.71-10.35-44.35,7.81-58,18.15-13.65,43.07-11.1,57.88,8.61ZM81.41,362.77c9.06,12.04,25.63,13.58,37.68,4.52,12.04-9.06,15.17-25.4,6.12-37.45-9.06-12.04-25.63-13.58-37.68-4.52-12.04,9.06-15.17,25.4-6.12,37.45Z"></path>
+        <path d="M220.6,399.34l10.11,3.94,22.56,64.68,18.93-48.5,14.36,5.6-29.05,74.45-10.1-3.94-22.56-64.68-18.92,48.5-14.36-5.6,29.05-74.45Z"></path>
+        <path d="M393.9,427.47c8.92-1.35,14.21.03,18.56,2.84,4.98,3.17,8.78,8.36,9.75,14.8.79,5.19-.89,10.88-3.07,13.98,7.53,2.44,13.58,9.6,14.92,18.4,1.01,6.66-.88,13.18-4.63,18.14-3.73,5.07-9.41,8.71-19.57,10.25l-30.81,4.69-12.01-79,26.86-4.09ZM386.91,459.71l10.72-1.63c4.74-.72,6.71-2.18,8.04-4.11,1.13-1.67,1.72-3.84,1.4-5.99-.32-2.14-1.54-4.04-3.11-5.3-1.84-1.45-4.15-2.26-8.89-1.53l-10.72,1.63,2.57,16.93ZM407.46,492.38c5.3-.81,8.03-2.61,9.62-5.04,1.51-2.19,2.15-4.83,1.72-7.65-.43-2.82-1.82-5.15-3.92-6.79-2.24-1.85-5.38-2.76-10.69-1.95l-15.24,2.32,3.26,21.44,15.24-2.32Z"></path>
+        <path d="M495.16,390.01l12.85-8.51,44.15,66.63-12.85,8.51-44.15-66.63Z"></path>
+        <path d="M568.97,326.07l5.45-9.38,67.38-12.36-45.02-26.14,7.74-13.33,69.1,40.13-5.45,9.38-67.38,12.36,45.02,26.14-7.74,13.33-69.11-40.13Z"></path>
+        <path d="M622.18,184.53l.96-15.38,79.76,4.99-.96,15.38-79.76-4.98Z"></path>
+        <circle cx="211.07" cy="45.94" r="45.94"></circle>
+        <rect x="410.79" y="29.15" width="117.91" height="33.58" style="animation:kb-wink 4.6s cubic-bezier(.5,0,.4,1) infinite"></rect>
+      </g>
+    </svg>
+    <div style="font-size:clamp(13px,2.6vw,22px);font-weight:500;letter-spacing:.42em;text-indent:.42em;color:#f0e7dc;text-align:center;line-height:1">BAKEHOUSE</div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;align-items:center;gap:clamp(10px,2vh,22px);position:relative;z-index:2;animation:kb-rise .7s .12s ease both">
+    <div style="width:44px;height:4px;border-radius:2px;background:#fd5a13"></div>
+    <p style="margin:0;font-size:clamp(14px,3.2vw,20px);font-weight:500;letter-spacing:.22em;text-indent:.22em;text-align:center;color:#f0e7dc;line-height:1.5">SIMPLE TREATS.<br>BRIGHTER DAYS.</p>
+  </div>
+
+  <div style="display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;max-width:440px;position:relative;z-index:2;animation:kb-rise .7s .22s ease both">
+    <p style="margin:0;font-size:11px;font-weight:600;letter-spacing:.2em;text-indent:.2em;text-transform:uppercase;color:#f0e7dc;opacity:.7;text-align:center">For inquiries, contact</p>
+    <a href="mailto:sales@konbinibakehouse.com" class="kb-contact" style="display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;box-sizing:border-box;min-height:60px;padding:10px 10px 10px clamp(16px,4vw,24px);border:1.5px solid rgba(240,231,220,.3);border-radius:999px;background:rgba(240,231,220,.06);color:#f0e7dc;font-size:clamp(13px,3.3vw,16px);font-weight:500;transition:border-color .2s,box-shadow .2s,transform .2s">
+      <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">sales@konbinibakehouse.com</span>
+      <span style="flex:none;display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#fd5a13;color:#292a2d;font-size:15px;line-height:1">&#8594;</span>
+    </a>
+  </div>
+
+  <p style="position:absolute;bottom:clamp(16px,3vh,28px);left:50%;transform:translateX(-50%);margin:0;width:100%;padding:0 20px;box-sizing:border-box;text-align:center;font-size:9.5px;font-weight:500;letter-spacing:.18em;text-indent:.18em;text-transform:uppercase;color:#f0e7dc;opacity:.75;line-height:1.7;z-index:2">Cookies / Muffins / Scones / Bars / Cinnamon Rolls</p>
+</main>
+</body>
+</html>
